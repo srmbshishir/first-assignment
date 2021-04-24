@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: goldenrod;
+    color: black;
+  }
+  h5{  
+    color: transparent;
+    color:white;
+    font-size: 30px;
+    border-bottom: 4px solid yellowgreen;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 0.7s;
+}
+@keyframes text_reveal {
+    100%{
+        color:goldenrod;    
+    }
+    
+}
+ h1{
+    font-size: 40px; 
+    font-family: sans-serif;
+ }
+ header{
+     background-image: url(../images/creative-flat-lay-photo-workspace-desk_7861-978.jpg);
+     background-repeat:no-repeat;
+     justify-content: center;
+ }
+ 
